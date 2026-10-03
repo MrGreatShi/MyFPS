@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 538064f79c0d4e54bb02f5df5998ad28, type: 3}
+  m_Name: LevelConfig_002
+  m_EditorClassIdentifier: 
+  levelId: 2
+  levelName: level_002
+  sceneName: Game1
+  victory: {fileID: 11400000, guid: b00b589c6b454384f843f88b3a372b1a, type: 2}
+  enemySpawns:
+  - AddressablesKey: Enemy/Skeleton
+    spawnInterval: 1
+    autoSpawn: 1
+    autoStart: 1
+    limitTotal: 0
+    totalToSpawn: 0
+    maxAlive: 1
+    spawnPoints:
+    - {x: 5, y: 0, z: 5}
+    - {x: -5, y: 0, z: -5}
+    spawnInCircle: 0
+    spawnRadius: 0
+    spawnOffsetX: 5
+    spawnOffsetY: 0.2
+    spawnOffsetZ: 5
+  timeLimitSeconds: 0
+  nextLevelId: 3
